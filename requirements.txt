@@ -6,3 +6,4 @@ faiss-cpu
 llama-cpp-python
 numpy
 asyncio
+pypdf
