@@ -16,15 +16,9 @@ class LocalRAGChatbot:
         self.llm = self.load_llama_model()
 
     def load_llama_model(self):
-        model_path = "models/mistral-7b-instruct-v0.1.Q4_K_M.gguf"
-        return Llama(
-            model_path=model_path,
-            n_ctx=2048,
-            n_threads=8,
-            n_batch=512,
-            verbose=False,
-            n_gpu_layers=-1,
-            offload_kqv=True,
+        return Llama.from_pretrained(
+            repo_id="TheBloke/Mistral-7B-Instruct-v0.1-GGUF",
+            filename="mistral-7b-instruct-v0.1.Q4_K_M.gguf",
         )
 
     def load_docs(self, uploaded_files):
