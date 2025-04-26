@@ -5,7 +5,7 @@ A fully **local Retrieval-Augmented Generation (RAG) chatbot** that allows you t
 
 ⚡ Works **offline**, **private**, and is **GPU-accelerated**.
 
-🕹 Deployed at [https://fvhfjttl-8501.euw.devtunnels.ms/](https://fvhfjttl-8501.euw.devtunnels.ms/)
+🕹 Deployed at [https://llm-rag-chatbot-20.streamlit.app/](https://llm-rag-chatbot-20.streamlit.app/)
 ---
 
 ## ✨ Features
