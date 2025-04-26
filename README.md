@@ -5,6 +5,7 @@ A fully **local Retrieval-Augmented Generation (RAG) chatbot** that allows you t
 
 ⚡ Works **offline**, **private**, and is **GPU-accelerated**.
 
+🕹 Deployed at [https://fvhfjttl-8501.euw.devtunnels.ms/](https://fvhfjttl-8501.euw.devtunnels.ms/)
 ---
 
 ## ✨ Features
@@ -34,8 +35,8 @@ A fully **local Retrieval-Augmented Generation (RAG) chatbot** that allows you t
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/localrag-chatbot.git
-cd localrag-chatbot
+git clone https://github.com/Jagjeet0518/llm-chatbot.git
+cd llm-chatbot
 ```
 
 ### 2. Install Dependencies
@@ -46,12 +47,7 @@ It's recommended to use a virtual environment.
 pip install -r requirements.txt
 ```
 
-Make sure you have `faiss-gpu` installed if you want GPU acceleration:
-```bash
-pip install faiss-gpu
-```
-
-### 3. Download the Model
+### 3. Download the Model (optional)
 
 Download a **quantized Mistral 7B model** (e.g., `mistral-7b-instruct-v0.1.Q4_K_M.gguf`) and place it in a `models/` directory.
 
